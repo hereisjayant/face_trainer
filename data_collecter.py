@@ -7,7 +7,7 @@ cam.set(4, 480) #setting height
 
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades +'haarcascade_frontalface_default.xml')
 
-#asks person fthe ID
+#asks person for the ID
 face_id = input('\n Enter the user ID then press return ===> ')
 print('\n please look at the camera')
 print('\n initializing...')
